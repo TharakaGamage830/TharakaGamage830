@@ -85,12 +85,12 @@
 
 ---
 
-## 🏆 GitHub Trophies
-
+🎖️ GitHub Achievements
 <div align="center">
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=tharakagamage830&theme=tokyonight&no-frame=true&row=1)](https://github.com/ryo-ma/github-profile-trophy)
-
+<img src="https://github.githubassets.com/images/modules/profile/achievements/quickdraw-default.png" width="80" title="Quickdraw"/>
+<img src="https://github.githubassets.com/images/modules/profile/achievements/yolo-default.png" width="80" title="YOLO"/>
+<img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-bronze.png" width="80" title="Pull Shark x2"/>
+<img src="https://github.githubassets.com/images/modules/profile/achievements/pair-extraordinaire-default.png" width="80" title="Pair Extraordinaire"/>
 </div>
 
 ---
