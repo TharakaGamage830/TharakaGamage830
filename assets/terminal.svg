@@ -1,36 +1,52 @@
 <svg width="600" height="200" viewBox="0 0 600 200" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <clipPath id="clip1"><rect x="0" y="0" height="20"><animate attributeName="width" values="0;430;430;430" keyTimes="0;0.2;0.9;1" dur="10s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="clip2"><rect x="0" y="0" height="20"><animate attributeName="width" values="0;0;300;300;300" keyTimes="0;0.2;0.4;0.9;1" dur="10s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="clip3"><rect x="0" y="0" height="20"><animate attributeName="width" values="0;0;0;480;480" keyTimes="0;0.2;0.4;0.65;1" dur="10s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="clip4"><rect x="0" y="0" height="20"><animate attributeName="width" values="0;0;0;0;260" keyTimes="0;0.2;0.4;0.65;0.85" dur="10s" repeatCount="indefinite"/></rect></clipPath>
+    <!-- Total duration: 12s -->
+    <!-- clip1: tharaka@dev:~$ next build (width: 0 to 220px) 0s to 1.5s -->
+    <clipPath id="clip1"><rect x="0" y="0" height="25" width="0"><animate attributeName="width" values="0;220;220;220" keyTimes="0;0.125;0.95;1" dur="12s" repeatCount="indefinite"/></clipPath>
+    <!-- clip2: ▲ Next.js 15.0.3 - Building... (width: 400px) appears at 1.8s -->
+    <clipPath id="clip2"><rect x="0" y="0" height="25" width="0"><animate attributeName="width" values="0;0;400;400;400" keyTimes="0;0.149;0.15;0.95;1" dur="12s" repeatCount="indefinite"/></clipPath>
+    <!-- clip3: ✓ Compiled successfully (width: 300px) appears at 2.4s -->
+    <clipPath id="clip3"><rect x="0" y="0" height="25" width="0"><animate attributeName="width" values="0;0;300;300;300" keyTimes="0;0.199;0.20;0.95;1" dur="12s" repeatCount="indefinite"/></clipPath>
+    <!-- clip4: tharaka@dev:~$ curl -s ... (width: 420px) 2.8s to 4.5s -->
+    <clipPath id="clip4"><rect x="0" y="0" height="25" width="0"><animate attributeName="width" values="0;0;420;420;420" keyTimes="0;0.233;0.375;0.95;1" dur="12s" repeatCount="indefinite"/></clipPath>
+    <!-- clip5: {"status": "online"...} (width: 520px) appears at 4.8s -->
+    <clipPath id="clip5"><rect x="0" y="0" height="25" width="0"><animate attributeName="width" values="0;0;520;520;520" keyTimes="0;0.399;0.40;0.95;1" dur="12s" repeatCount="indefinite"/></clipPath>
+    <!-- clip6: final prompt tharaka@dev:~$ (width: 130px) 5.2s to 6.2s -->
+    <clipPath id="clip6"><rect x="0" y="0" height="25" width="0"><animate attributeName="width" values="0;0;130;130;130" keyTimes="0;0.433;0.516;0.95;1" dur="12s" repeatCount="indefinite"/></clipPath>
   </defs>
 
-  <rect width="600" height="200" rx="12" fill="#0f172a" stroke="#334155" stroke-width="1.5"/>
+  <rect width="600" height="200" rx="12" fill="#0b0f19" stroke="#1f293d" stroke-width="1.5"/>
 
-  <rect width="600" height="34" rx="12" fill="#1e293b"/>
-  <rect y="22" width="600" height="12" fill="#1e293b"/>
+  <rect width="600" height="34" rx="12" fill="#161f30"/>
+  <rect y="22" width="600" height="12" fill="#161f30"/>
   <circle cx="24" cy="17" r="6" fill="#ef4444"/>
   <circle cx="46" cy="17" r="6" fill="#eab308"/>
   <circle cx="68" cy="17" r="6" fill="#22c55e"/>
-  <text x="300" y="22" text-anchor="middle" font-family="Fira Code, monospace" font-size="12" fill="#94a3b8">tharaka@dev: ~/portfolio</text>
+  <text x="300" y="22" text-anchor="middle" font-family="Fira Code, monospace" font-size="12" fill="#64748b">tharaka@dev: ~/portfolio</text>
 
-  <g font-family="Fira Code, monospace" font-size="15" fill="#e2e8f0">
+  <g font-family="Fira Code, monospace" font-size="13" fill="#cbd5e1">
     <g clip-path="url(#clip1)">
-      <text x="20" y="65"><tspan fill="#60a5fa">$</tspan> git log --author="Tharaka" --oneline | head -1</text>
+      <text x="20" y="65"><tspan fill="#38bdf8">tharaka@dev:~$</tspan> next build</text>
     </g>
     <g clip-path="url(#clip2)">
-      <text x="20" y="95"><tspan fill="#4ade80">a3f9c2e</tspan> feat: ship production feature for client</text>
+      <text x="20" y="88" fill="#64748b">▲ Next.js 15.0.3 - Building production...</text>
     </g>
     <g clip-path="url(#clip3)">
-      <text x="20" y="125"><tspan fill="#60a5fa">$</tspan> whoami --stack</text>
+      <text x="20" y="111" fill="#4ade80">✓ Compiled successfully [1.2s]</text>
     </g>
     <g clip-path="url(#clip4)">
-      <text x="20" y="155"><tspan fill="#c084fc">→</tspan> React · Next.js · NestJS · Spring Boot · TypeScript</text>
+      <text x="20" y="134"><tspan fill="#38bdf8">tharaka@dev:~$</tspan> curl -s https://tharaka.dev/status</text>
+    </g>
+    <g clip-path="url(#clip5)">
+      <text x="20" y="145" fill="#c084fc">{"status": "online", "role": "SE Intern"}</text>
+    </g>
+    <g clip-path="url(#clip6)">
+      <text x="20" y="180"><tspan fill="#38bdf8">tharaka@dev:~$</tspan></text>
     </g>
   </g>
 
-  <rect x="20" y="163" width="9" height="16" fill="#60a5fa">
-    <animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/>
+  <!-- blinking cursor at the end of the final prompt -->
+  <rect x="142" y="167" width="8" height="15" fill="#38bdf8">
+    <animate attributeName="opacity" values="0;0;1;0;1;0;1" keyTimes="0;0.433;0.45;0.55;0.7;0.85;1" dur="12s" repeatCount="indefinite"/>
   </rect>
 </svg>

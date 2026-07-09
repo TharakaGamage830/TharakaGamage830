@@ -18,10 +18,10 @@
 
 <table>
 <tr>
-<td width="30%" align="center" valign="middle">
+<td width="30%" align="center" valign="top">
 <a><img src="assets/robot.svg" width="220" alt="scanning robot"/></a>
 </td>
-<td width="70%" align="center" valign="middle">
+<td width="70%" align="center" valign="top">
 <a><img src="assets/terminal.svg" width="100%" alt="typing terminal"/></a>
 </td>
 </tr>
@@ -91,13 +91,13 @@ Full-stack developer (B.Sc. Computer Science, University of Ruhuna) currently wo
 ## 💼 Production Contributions - Software Engineer Intern
 
 <table>
-<tr><td width="50%">
+<tr><td valign="top" width="50%">
 
 **Mahinda Panagoda Funeral Service - [Frontend](https://github.com/TharakaGamage830/Mahinda_Panagoda_Frontend) | [Backend](https://github.com/TharakaGamage830/panagoda_backend_v0.2)**
 Client-facing web frontend and backend, built and maintained as part of the software engineering team.
 
 </td>
-<td width="50%">
+<td valign="top" width="50%">
 
 **[Ehelepola Walawwe](https://github.com/TharakaGamage830/ehelepola_walawwa_frontend)**
 Built for a client web application.
@@ -111,7 +111,7 @@ Built for a client web application.
 
 <table>
 <tr>
-<td width="50%">
+<td valign="top" width="50%">
 
 ### 🩸 BloodConnect
 Full-stack MERN platform connecting blood donors and recipients - register as a donor, request blood, manage donation events in real time.
@@ -121,7 +121,7 @@ Full-stack MERN platform connecting blood donors and recipients - register as a 
 [Repository →](https://github.com/TharakaGamage830/BloodConnect) · [Live Demo →](https://blood-connect-self.vercel.app/)
 
 </td>
-<td width="50%">
+<td valign="top" width="50%">
 
 ### 🚗 MOSAD - Rashmi Tyre E-Business *(Contributed)*
 E-business web application for Rashmi Tyre Center - stock management, ordering, and business operations.
@@ -148,7 +148,7 @@ E-business web application for Rashmi Tyre Center - stock management, ordering, 
 
 <table>
 <tr>
-<td width="33%">
+<td valign="top" width="33%">
 
 **⏱️ Personal Task & Time Tracker**
 Task management + time tracking with a timer and analytics dashboard.
@@ -158,7 +158,7 @@ Task management + time tracking with a timer and analytics dashboard.
 [Repo →](https://github.com/TharakaGamage830/Personal_Task_and_Time_Tracker) · [Live →](https://task-tracker-theta-azure.vercel.app/)
 
 </td>
-<td width="33%">
+<td valign="top" width="33%">
 
 **🚌 BUS: Book-Ur-Seat**
 Bus reservation and management system - real-time seat booking, full admin panel for routes/schedules.
@@ -168,7 +168,7 @@ Bus reservation and management system - real-time seat booking, full admin panel
 [Repo →](https://github.com/TharakaGamage830/BUS_Book-Ur-Seat)
 
 </td>
-<td width="33%">
+<td valign="top" width="33%">
 
 **📦 SalesOrderApp**
 Sales order management application.
@@ -187,7 +187,7 @@ Sales order management application.
 
 <table>
 <tr>
-<td width="33%">
+<td valign="top" width="33%">
 
 **🏮 Mahasona: Shadow of the Village**
 Real-time social deduction game inspired by Sri Lankan folklore - 8 unique roles, live multiplayer.
@@ -197,7 +197,7 @@ Real-time social deduction game inspired by Sri Lankan folklore - 8 unique roles
 [Repo →](https://github.com/TharakaGamage830/Mahasona_Shadow-of-the-Village) · [Live →](https://mahasona-shadow-of-the-village.vercel.app/)
 
 </td>
-<td width="33%">
+<td valign="top" width="33%">
 
 **📊 OmniDash**
 Multi-frontend admin dashboard system - admin panel, client frontend, and backend API.
@@ -207,7 +207,7 @@ Multi-frontend admin dashboard system - admin panel, client frontend, and backen
 [Repo →](https://github.com/TharakaGamage830/OmniDash)
 
 </td>
-<td width="33%">
+<td valign="top" width="33%">
 
 **💰 ExpenseTracker**
 ASP.NET Core app to record and categorize daily expenses with monthly chart reports.
@@ -271,6 +271,12 @@ ASP.NET Core app to record and categorize daily expenses with monthly chart repo
 <a href="https://github.com/TharakaGamage830?tab=achievements"><img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-bronze.png" width="80" title="Pull Shark x2"/></a>
 <a href="https://github.com/TharakaGamage830?tab=achievements"><img src="https://github.githubassets.com/images/modules/profile/achievements/pair-extraordinaire-default.png" width="80" title="Pair Extraordinaire"/></a>
 
+</div>
+
+<br/>
+
+<div align="center">
+  <a><img src="assets/solar-system.svg" width="100%" alt="Solar System Skills Animation"/></a>
 </div>
 
 <br/>
