@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/TharakaGamage830/TharakaGamage830/main/assets/banner.svg" width="100%" alt="Tharaka Gamage banner"/>
+<img src="assets/banner.svg" width="100%" alt="Tharaka Gamage banner"/>
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=800&color=60A5FA&center=true&vCenter=true&width=650&lines=Shipping+production+features+as+an+SE+Intern;React+%2F+Next.js+%2F+NestJS+%2F+Spring+Boot+%2F+TypeScript;Contributing+to+real-world+client+codebases" alt="Typing SVG"/>
 
@@ -19,10 +19,10 @@
 <table>
 <tr>
 <td width="30%" align="center" valign="middle">
-<img src="https://raw.githubusercontent.com/TharakaGamage830/TharakaGamage830/main/assets/robot.svg" width="220" alt="scanning robot"/>
+<img src="assets/robot.svg" width="220" alt="scanning robot"/>
 </td>
 <td width="70%" align="center" valign="middle">
-<img src="https://raw.githubusercontent.com/TharakaGamage830/TharakaGamage830/main/assets/terminal.svg" width="100%" alt="typing terminal"/>
+<img src="assets/terminal.svg" width="100%" alt="typing terminal"/>
 </td>
 </tr>
 </table>
@@ -239,10 +239,10 @@ ASP.NET Core app to record and categorize daily expenses with monthly chart repo
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/TharakaGamage830/TharakaGamage830/main/profile-summary-card-output/tokyonight/0-profile-details.svg" width="49%"/>
-<img src="https://raw.githubusercontent.com/TharakaGamage830/TharakaGamage830/main/profile-summary-card-output/tokyonight/3-stats.svg" width="49%"/>
-<img src="https://raw.githubusercontent.com/TharakaGamage830/TharakaGamage830/main/profile-summary-card-output/tokyonight/1-repos-per-language.svg" width="49%"/>
-<img src="https://raw.githubusercontent.com/TharakaGamage830/TharakaGamage830/main/profile-summary-card-output/tokyonight/4-productive-time.svg" width="49%"/>
+<img src="profile-summary-card-output/tokyonight/0-profile-details.svg" width="49%"/>
+<img src="profile-summary-card-output/tokyonight/3-stats.svg" width="49%"/>
+<img src="profile-summary-card-output/tokyonight/1-repos-per-language.svg" width="49%"/>
+<img src="profile-summary-card-output/tokyonight/4-productive-time.svg" width="49%"/>
 
 </div>
 
@@ -252,11 +252,11 @@ ASP.NET Core app to record and categorize daily expenses with monthly chart repo
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/TharakaGamage830/TharakaGamage830/output/github-contribution-grid-snake-dark.svg" width="100%" alt="snake contribution graph"/>
+<img src="https://raw.githubusercontent.com/TharakaGamage830/TharakaGamage830/output/github-contribution-grid-snake-dark.svg?v=1" width="100%" alt="snake contribution graph"/>
 
 <br/><br/>
 
-<img src="https://raw.githubusercontent.com/TharakaGamage830/TharakaGamage830/main/profile-3d-contrib/profile-night-rainbow.svg" width="90%" alt="3D contribution graph"/>
+<img src="profile-3d-contrib/profile-night-rainbow.svg" width="90%" alt="3D contribution graph"/>
 
 </div>
 
