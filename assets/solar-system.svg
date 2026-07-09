@@ -1,4 +1,4 @@
-<svg width="900" height="300" viewBox="0 0 900 300" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="500" viewBox="0 0 900 500" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <!-- Background Gradient -->
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -16,70 +16,70 @@
   </defs>
 
   <!-- Background -->
-  <rect width="900" height="300" rx="18" fill="url(#bgGrad)" stroke="#1e293b" stroke-width="1.5"/>
+  <rect width="900" height="500" rx="18" fill="url(#bgGrad)" stroke="#1e293b" stroke-width="1.5"/>
 
   <!-- Twinkling Stars -->
   <g fill="#ffffff" opacity="0.6">
     <circle cx="80" cy="50" r="1"><animate attributeName="opacity" values="0.2;1;0.2" dur="3s" repeatCount="indefinite"/></circle>
-    <circle cx="120" cy="220" r="1.5"><animate attributeName="opacity" values="0.1;0.9;0.1" dur="4s" begin="1s" repeatCount="indefinite"/></circle>
+    <circle cx="120" cy="420" r="1.5"><animate attributeName="opacity" values="0.1;0.9;0.1" dur="4s" begin="1s" repeatCount="indefinite"/></circle>
     <circle cx="250" cy="80" r="1"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.5s" begin="0.5s" repeatCount="indefinite"/></circle>
-    <circle cx="320" cy="250" r="1"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="5s" repeatCount="indefinite"/></circle>
+    <circle cx="320" cy="450" r="1"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="5s" repeatCount="indefinite"/></circle>
     <circle cx="580" cy="60" r="1.5"><animate attributeName="opacity" values="0.1;1;0.1" dur="3.5s" begin="1.5s" repeatCount="indefinite"/></circle>
-    <circle cx="670" cy="230" r="1"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="4.5s" repeatCount="indefinite"/></circle>
+    <circle cx="670" cy="430" r="1"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="4.5s" repeatCount="indefinite"/></circle>
     <circle cx="810" cy="90" r="1"><animate attributeName="opacity" values="0.2;1;0.2" dur="3s" begin="2s" repeatCount="indefinite"/></circle>
-    <circle cx="780" cy="210" r="1.5"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="5s" begin="0.5s" repeatCount="indefinite"/></circle>
-    <circle cx="180" cy="120" r="1"><animate attributeName="opacity" values="0.4;1;0.4" dur="3.8s" repeatCount="indefinite"/></circle>
-    <circle cx="710" cy="110" r="1"><animate attributeName="opacity" values="0.3;1;0.3" dur="4.2s" begin="1s" repeatCount="indefinite"/></circle>
+    <circle cx="780" cy="380" r="1.5"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="5s" begin="0.5s" repeatCount="indefinite"/></circle>
+    <circle cx="180" cy="220" r="1"><animate attributeName="opacity" values="0.4;1;0.4" dur="3.8s" repeatCount="indefinite"/></circle>
+    <circle cx="710" cy="210" r="1"><animate attributeName="opacity" values="0.3;1;0.3" dur="4.2s" begin="1s" repeatCount="indefinite"/></circle>
   </g>
 
   <!-- Orbits Grid System -->
   <g stroke="#1e293b" stroke-width="1" stroke-dasharray="3 5" fill="none" opacity="0.8">
-    <circle cx="450" cy="150" r="60" />
-    <circle cx="450" cy="150" r="105" />
-    <circle cx="450" cy="150" r="150" />
-    <circle cx="450" cy="150" r="195" />
-    <circle cx="450" cy="150" r="240" />
+    <circle cx="450" cy="250" r="60" />
+    <circle cx="450" cy="250" r="105" />
+    <circle cx="450" cy="250" r="150" />
+    <circle cx="450" cy="250" r="195" />
+    <circle cx="450" cy="250" r="240" />
   </g>
 
   <!-- Central Sun -->
-  <circle cx="450" cy="150" r="25" fill="none" stroke="#f59e0b" stroke-width="1.5" opacity="0.4">
+  <circle cx="450" cy="250" r="25" fill="none" stroke="#f59e0b" stroke-width="1.5" opacity="0.4">
     <animate attributeName="r" values="25;32;25" dur="3s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="0.4;0;0.4" dur="3s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="450" cy="150" r="24" fill="url(#sunGrad)"/>
+  <circle cx="450" cy="250" r="24" fill="url(#sunGrad)"/>
 
   <!-- Orbit 1: React (dur 8s) -->
   <g>
-    <animateTransform attributeName="transform" type="rotate" from="0 450 150" to="360 450 150" dur="8s" repeatCount="indefinite"/>
-    <circle cx="510" cy="150" r="6" fill="#00f2fe" filter="drop-shadow(0 0 4px #00f2fe)"/>
-    <text x="510" y="140" font-family="Fira Code, monospace" font-size="9" fill="#00f2fe" text-anchor="middle" font-weight="600">React</text>
+    <animateTransform attributeName="transform" type="rotate" from="0 450 250" to="360 450 250" dur="8s" repeatCount="indefinite"/>
+    <circle cx="510" cy="250" r="6" fill="#00f2fe" filter="drop-shadow(0 0 4px #00f2fe)"/>
+    <text x="510" y="240" font-family="Fira Code, monospace" font-size="9" fill="#00f2fe" text-anchor="middle" font-weight="600">React</text>
   </g>
 
   <!-- Orbit 2: Next.js (dur 12s) -->
   <g>
-    <animateTransform attributeName="transform" type="rotate" from="0 450 150" to="360 450 150" dur="12s" repeatCount="indefinite"/>
-    <circle cx="555" cy="150" r="7" fill="#f8fafc" filter="drop-shadow(0 0 4px #ffffff)"/>
-    <text x="555" y="138" font-family="Fira Code, monospace" font-size="9" fill="#cbd5e1" text-anchor="middle" font-weight="600">Next.js</text>
+    <animateTransform attributeName="transform" type="rotate" from="0 450 250" to="360 450 250" dur="12s" repeatCount="indefinite"/>
+    <circle cx="555" cy="250" r="7" fill="#f8fafc" filter="drop-shadow(0 0 4px #ffffff)"/>
+    <text x="555" y="238" font-family="Fira Code, monospace" font-size="9" fill="#cbd5e1" text-anchor="middle" font-weight="600">Next.js</text>
   </g>
 
   <!-- Orbit 3: NestJS (dur 16s) -->
   <g>
-    <animateTransform attributeName="transform" type="rotate" from="0 450 150" to="360 450 150" dur="16s" repeatCount="indefinite"/>
-    <circle cx="600" cy="150" r="7" fill="#e2234e" filter="drop-shadow(0 0 4px #e2234e)"/>
-    <text x="600" y="138" font-family="Fira Code, monospace" font-size="9" fill="#fecaca" text-anchor="middle" font-weight="600">NestJS</text>
+    <animateTransform attributeName="transform" type="rotate" from="0 450 250" to="360 450 250" dur="16s" repeatCount="indefinite"/>
+    <circle cx="600" cy="250" r="7" fill="#e2234e" filter="drop-shadow(0 0 4px #e2234e)"/>
+    <text x="600" y="238" font-family="Fira Code, monospace" font-size="9" fill="#fecaca" text-anchor="middle" font-weight="600">NestJS</text>
   </g>
 
   <!-- Orbit 4: Spring Boot (dur 20s) -->
   <g>
-    <animateTransform attributeName="transform" type="rotate" from="0 450 150" to="360 450 150" dur="20s" repeatCount="indefinite"/>
-    <circle cx="645" cy="150" r="8" fill="#22c55e" filter="drop-shadow(0 0 4px #22c55e)"/>
-    <text x="645" y="137" font-family="Fira Code, monospace" font-size="9" fill="#86efac" text-anchor="middle" font-weight="600">Spring Boot</text>
+    <animateTransform attributeName="transform" type="rotate" from="0 450 250" to="360 450 250" dur="20s" repeatCount="indefinite"/>
+    <circle cx="645" cy="250" r="8" fill="#22c55e" filter="drop-shadow(0 0 4px #22c55e)"/>
+    <text x="645" y="237" font-family="Fira Code, monospace" font-size="9" fill="#86efac" text-anchor="middle" font-weight="600">Spring Boot</text>
   </g>
 
   <!-- Orbit 5: TypeScript (dur 24s) -->
   <g>
-    <animateTransform attributeName="transform" type="rotate" from="0 450 150" to="360 450 150" dur="24s" repeatCount="indefinite"/>
-    <circle cx="690" cy="150" r="8" fill="#3178c6" filter="drop-shadow(0 0 4px #3178c6)"/>
-    <text x="690" y="137" font-family="Fira Code, monospace" font-size="9" fill="#93c5fd" text-anchor="middle" font-weight="600">TypeScript</text>
+    <animateTransform attributeName="transform" type="rotate" from="0 450 250" to="360 450 250" dur="24s" repeatCount="indefinite"/>
+    <circle cx="690" cy="250" r="8" fill="#3178c6" filter="drop-shadow(0 0 4px #3178c6)"/>
+    <text x="690" y="237" font-family="Fira Code, monospace" font-size="9" fill="#93c5fd" text-anchor="middle" font-weight="600">TypeScript</text>
   </g>
 </svg>
