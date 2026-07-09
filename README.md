@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="assets/banner.svg" width="100%" alt="Tharaka Gamage banner"/>
+<a><img src="assets/banner.svg" width="100%" alt="Tharaka Gamage banner"/></a>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=800&color=60A5FA&center=true&vCenter=true&width=650&lines=Shipping+production+features+as+an+SE+Intern;React+%2F+Next.js+%2F+NestJS+%2F+Spring+Boot+%2F+TypeScript;Contributing+to+real-world+client+codebases" alt="Typing SVG"/>
+<a><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=800&color=60A5FA&center=true&vCenter=true&width=650&lines=Shipping+production+features+as+an+SE+Intern;React+%2F+Next.js+%2F+NestJS+%2F+Spring+Boot+%2F+TypeScript;Contributing+to+real-world+client+codebases" alt="Typing SVG"/></a>
 
 <br/>
 
@@ -12,17 +12,17 @@
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1e3a8a,100:0f172a&height=4&section=header"/>
+<a><img src="https://capsule-render.vercel.app/api?type=rect&color=0:1e3a8a,100:0f172a&height=4&section=header"/></a>
 
 <div align="center">
 
 <table>
 <tr>
 <td width="30%" align="center" valign="middle">
-<img src="assets/robot.svg" width="220" alt="scanning robot"/>
+<a><img src="assets/robot.svg" width="220" alt="scanning robot"/></a>
 </td>
 <td width="70%" align="center" valign="middle">
-<img src="assets/terminal.svg" width="100%" alt="typing terminal"/>
+<a><img src="assets/terminal.svg" width="100%" alt="typing terminal"/></a>
 </td>
 </tr>
 </table>
@@ -239,10 +239,10 @@ ASP.NET Core app to record and categorize daily expenses with monthly chart repo
 
 <div align="center">
 
-<img src="profile-summary-card-output/tokyonight/0-profile-details.svg" width="49%"/>
-<img src="profile-summary-card-output/tokyonight/3-stats.svg" width="49%"/>
-<img src="profile-summary-card-output/tokyonight/1-repos-per-language.svg" width="49%"/>
-<img src="profile-summary-card-output/tokyonight/4-productive-time.svg" width="49%"/>
+<a><img src="profile-summary-card-output/tokyonight/0-profile-details.svg" width="49%"/></a>
+<a><img src="profile-summary-card-output/tokyonight/3-stats.svg" width="49%"/></a>
+<a><img src="profile-summary-card-output/tokyonight/1-repos-per-language.svg" width="49%"/></a>
+<a><img src="profile-summary-card-output/tokyonight/4-productive-time.svg" width="49%"/></a>
 
 </div>
 
@@ -252,11 +252,11 @@ ASP.NET Core app to record and categorize daily expenses with monthly chart repo
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/TharakaGamage830/TharakaGamage830/output/github-contribution-grid-snake-dark.svg?v=1" width="100%" alt="snake contribution graph"/>
+<a><img src="https://raw.githubusercontent.com/TharakaGamage830/TharakaGamage830/output/github-contribution-grid-snake-dark.svg?v=1" width="100%" alt="snake contribution graph"/></a>
 
 <br/><br/>
 
-<img src="profile-3d-contrib/profile-night-rainbow.svg" width="90%" alt="3D contribution graph"/>
+<a><img src="profile-3d-contrib/profile-night-rainbow.svg" width="90%" alt="3D contribution graph"/></a>
 
 </div>
 
@@ -276,5 +276,5 @@ ASP.NET Core app to record and categorize daily expenses with monthly chart repo
 <br/>
 
 <div align="center">
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3a8a,100:0f172a&height=100&section=footer"/>
+<a><img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3a8a,100:0f172a&height=100&section=footer"/></a>
 </div>
