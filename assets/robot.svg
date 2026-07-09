@@ -1,0 +1,76 @@
+<svg width="260" height="220" viewBox="0 0 260 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#60a5fa" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#60a5fa" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="headGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#334155"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="visorGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e3a8a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- radar ping rings, expanding + fading, purely decorative auto-loop -->
+  <circle cx="130" cy="110" r="10" fill="none" stroke="#60a5fa" stroke-width="1.5" opacity="0.7">
+    <animate attributeName="r" values="10;90" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.7;0" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="130" cy="110" r="10" fill="none" stroke="#c084fc" stroke-width="1.5" opacity="0.6">
+    <animate attributeName="r" values="10;90" dur="3s" begin="1.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0" dur="3s" begin="1.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- antenna -->
+  <g>
+    <line x1="130" y1="40" x2="130" y2="20" stroke="#475569" stroke-width="3"/>
+    <circle cx="130" cy="16" r="6" fill="#60a5fa">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="130" cy="16" r="12" fill="url(#glow)">
+      <animate attributeName="opacity" values="0.8;0.2;0.8" dur="1.4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- head group: idle side-to-side sweep, automatic, not cursor-driven -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate"
+      values="0 130 100; -14 130 100; 0 130 100; 14 130 100; 0 130 100"
+      keyTimes="0;0.25;0.5;0.75;1" dur="6s" repeatCount="indefinite"/>
+
+    <rect x="80" y="55" width="100" height="90" rx="22" fill="url(#headGrad)" stroke="#475569" stroke-width="2"/>
+
+    <!-- side bolts for a mech feel -->
+    <circle cx="88" cy="70" r="3" fill="#64748b"/>
+    <circle cx="172" cy="70" r="3" fill="#64748b"/>
+    <circle cx="88" cy="130" r="3" fill="#64748b"/>
+    <circle cx="172" cy="130" r="3" fill="#64748b"/>
+
+    <!-- visor -->
+    <rect x="95" y="85" width="70" height="30" rx="15" fill="url(#visorGrad)"/>
+
+    <!-- single scanning eye, sweeps left-right inside the visor -->
+    <circle cx="130" cy="100" r="8" fill="#60a5fa">
+      <animate attributeName="cx" values="112;148;112" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="130" cy="100" r="14" fill="url(#glow)">
+      <animate attributeName="cx" values="112;148;112" dur="6s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- mouth grille -->
+    <rect x="112" y="126" width="36" height="4" rx="2" fill="#334155"/>
+    <rect x="112" y="133" width="24" height="4" rx="2" fill="#334155"/>
+  </g>
+
+  <!-- body hint -->
+  <rect x="100" y="150" width="60" height="35" rx="10" fill="#1e293b" stroke="#475569" stroke-width="2"/>
+  <circle cx="130" cy="167" r="6" fill="#c084fc" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0.3;0.8" dur="2.2s" repeatCount="indefinite"/>
+  </circle>
+
+  <text x="130" y="210" text-anchor="middle" font-family="Fira Code, monospace" font-size="11" fill="#64748b">// scanning for opportunities</text>
+</svg>

@@ -14,6 +14,23 @@
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1e3a8a,100:0f172a&height=4&section=header"/>
 
+<div align="center">
+
+<table>
+<tr>
+<td width="30%" align="center" valign="middle">
+<img src="https://raw.githubusercontent.com/TharakaGamage830/TharakaGamage830/main/assets/robot.svg" width="220" alt="scanning robot"/>
+</td>
+<td width="70%" align="center" valign="middle">
+<img src="https://raw.githubusercontent.com/TharakaGamage830/TharakaGamage830/main/assets/terminal.svg" width="100%" alt="typing terminal"/>
+</td>
+</tr>
+</table>
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1e3a8a,100:0f172a&height=4&section=header"/>
+
 ## About
 
 Full-stack developer (B.Sc. Computer Science, University of Ruhuna) currently working as a **Software Engineer Intern**, shipping features on production client codebases alongside personal projects. Originally built on a Java / Spring Boot / React foundation, and over the past year expanded into the modern TypeScript ecosystem - **Next.js, NestJS, and Tailwind CSS** - to build typed, end-to-end applications across the full stack.

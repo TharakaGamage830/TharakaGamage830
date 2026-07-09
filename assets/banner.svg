@@ -1,12 +1,27 @@
-<svg width="900" height="280" viewBox="0 0 900 280" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="280" viewBox="0 0 900 280" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0f172a">
-        <animate attributeName="stop-color" values="#0f172a;#1e3a8a;#0f172a" dur="6s" repeatCount="indefinite"/>
+      <stop offset="0%" stop-color="#242c3a">
+        <animate attributeName="stop-color" values="#242c3a;#2d3648;#242c3a" dur="6s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="100%" stop-color="#1e293b">
-        <animate attributeName="stop-color" values="#1e293b;#312e81;#1e293b" dur="6s" repeatCount="indefinite"/>
+      <stop offset="100%" stop-color="#1a2029">
+        <animate attributeName="stop-color" values="#1a2029;#2a3346;#1a2029" dur="6s" repeatCount="indefinite"/>
       </stop>
+    </linearGradient>
+    <linearGradient id="gloss" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#ffffff" stop-opacity="0.05"/>
+      <stop offset="52%" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="60%" stop-color="#ffffff" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="45%" stop-color="#c084fc"/>
+      <stop offset="55%" stop-color="#f0f9ff"/>
+      <stop offset="65%" stop-color="#c084fc"/>
+      <stop offset="100%" stop-color="#60a5fa"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-400 0;400 0;-400 0" dur="7s" repeatCount="indefinite"/>
     </linearGradient>
     <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#60a5fa"/>
@@ -16,9 +31,21 @@
       <stop offset="0%" stop-color="#93c5fd"/>
       <stop offset="100%" stop-color="#60a5fa"/>
     </linearGradient>
+    <clipPath id="avatarClip">
+      <circle cx="700" cy="140" r="27"/>
+    </clipPath>
+    <clipPath id="bannerClip">
+      <rect width="900" height="280" rx="18"/>
+    </clipPath>
   </defs>
 
   <rect width="900" height="280" rx="18" fill="url(#bg)"/>
+
+  <g clip-path="url(#bannerClip)">
+    <rect x="-300" y="0" width="300" height="280" fill="url(#gloss)" transform="skewX(-20)">
+      <animate attributeName="x" values="-300;900;-300" dur="8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
 
   <circle cx="50" cy="40" r="2" fill="#60a5fa" opacity="0.7">
     <animate attributeName="cy" values="40;20;40" dur="4s" repeatCount="indefinite"/>
@@ -41,14 +68,17 @@
     <animate attributeName="opacity" values="0;0.8;0" dur="9s" begin="2s" repeatCount="indefinite"/>
   </circle>
 
-  <text x="60" y="115" font-family="Segoe UI, sans-serif" font-size="42" font-weight="700" fill="url(#textGrad)">
+  <text x="60" y="115" font-family="Segoe UI, sans-serif" font-size="42" font-weight="700" fill="url(#shine)">
     Tharaka Gamage
   </text>
   <rect x="62" y="127" width="0" height="4" rx="2" fill="url(#textGrad)">
     <animate attributeName="width" values="0;330;330;0" keyTimes="0;0.3;0.85;1" dur="8s" repeatCount="indefinite"/>
   </rect>
 
-  <text x="62" y="160" font-family="Fira Code, monospace" font-size="18" fill="#94a3b8">Full-Stack Engineer · TypeScript Ecosystem</text>
+  <text x="62" y="160" font-family="Fira Code, monospace" font-size="18" fill="#94a3b8">
+    Full-Stack Engineer · TypeScript Ecosystem
+    <animate attributeName="opacity" values="0.75;1;0.75" dur="3s" repeatCount="indefinite"/>
+  </text>
   <rect x="410" y="147" width="10" height="20" fill="#60a5fa">
     <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
   </rect>
@@ -68,8 +98,13 @@
     <animate attributeName="r" values="28;40;28" dur="2.5s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="0.6;0;0.6" dur="2.5s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="700" cy="140" r="28" fill="#1e293b" stroke="url(#textGrad)" stroke-width="2"/>
-  <text x="700" y="147" text-anchor="middle" font-size="18" font-weight="700" fill="#e2e8f0" font-family="Segoe UI">TG</text>
+  <circle cx="700" cy="140" r="28" fill="#1e293b"/>
+  <image
+    x="673" y="113" width="54" height="54"
+    href="https://raw.githubusercontent.com/TharakaGamage830/TharakaGamage830/main/assets/profile.jpg"
+    xlink:href="https://raw.githubusercontent.com/TharakaGamage830/TharakaGamage830/main/assets/profile.jpg"
+    clip-path="url(#avatarClip)" preserveAspectRatio="xMidYMid slice"/>
+  <circle cx="700" cy="140" r="28" fill="none" stroke="url(#textGrad)" stroke-width="2.5"/>
 
   <g>
     <rect x="-46" y="-11" width="92" height="22" rx="11" fill="#1e40af"/>
@@ -113,12 +148,94 @@
     <animateMotion dur="11s" begin="7.4s" repeatCount="indefinite"><mpath href="#orbitInner"/></animateMotion>
   </g>
 
+  <!-- "AI vs Real" clash vignette -->
+  <g transform="translate(535,52)">
+    <text x="0" y="-20" text-anchor="middle" font-family="Fira Code, monospace" font-size="9" fill="#64748b" letter-spacing="1">AI vs REAL</text>
+
+    <!-- chatbot fighter -->
+    <g transform="translate(-16,4)">
+      <animateTransform attributeName="transform" type="rotate" values="-6;6;-6" dur="0.5s" repeatCount="indefinite" additive="sum"/>
+      <rect x="-11" y="-10" width="22" height="18" rx="6" fill="#1e3a8a" stroke="#60a5fa" stroke-width="1.2"/>
+      <polygon points="-4,8 4,8 0,13" fill="#1e3a8a"/>
+      <line x1="0" y1="-10" x2="0" y2="-14" stroke="#60a5fa" stroke-width="1.5"/>
+      <circle cx="0" cy="-15" r="1.6" fill="#60a5fa"/>
+      <circle cx="-4" cy="-2" r="1.8" fill="#93c5fd"/>
+      <circle cx="4" cy="-2" r="1.8" fill="#93c5fd"/>
+    </g>
+
+    <!-- toy fighter (teddy bear) -->
+    <g transform="translate(16,4)">
+      <animateTransform attributeName="transform" type="rotate" values="6;-6;6" dur="0.5s" repeatCount="indefinite" additive="sum"/>
+      <circle cx="-6" cy="-11" r="3.5" fill="#b45309"/>
+      <circle cx="6" cy="-11" r="3.5" fill="#b45309"/>
+      <circle cx="0" cy="-6" r="8" fill="#d97706"/>
+      <ellipse cx="0" cy="7" rx="9" ry="10" fill="#d97706"/>
+      <circle cx="-3" cy="-7" r="1.3" fill="#1e293b"/>
+      <circle cx="3" cy="-7" r="1.3" fill="#1e293b"/>
+      <circle cx="0" cy="-3" r="1.6" fill="#78350f"/>
+    </g>
+
+    <!-- clash spark, bursts between them -->
+    <g>
+      <path d="M0,-6 L2.5,-1 L8,0 L2.5,1 L0,6 L-2.5,1 L-8,0 L-2.5,-1 Z" fill="#facc15">
+        <animateTransform attributeName="transform" type="scale" values="0.6;1.3;0.6" dur="0.4s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.5;1;0.5" dur="0.4s" repeatCount="indefinite"/>
+      </path>
+    </g>
+  </g>
+
+  <!-- rounded logo badge -->
+  <g transform="translate(48,232)">
+    <circle cx="0" cy="0" r="20" fill="#1e293b" stroke="url(#textGrad)" stroke-width="2"/>
+    <circle cx="0" cy="0" r="20" fill="none" stroke="#60a5fa" stroke-width="1" opacity="0.4">
+      <animate attributeName="r" values="20;25;20" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.4;0;0.4" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <image
+      x="-17" y="-17" width="34" height="34"
+      href="https://raw.githubusercontent.com/TharakaGamage830/TharakaGamage830/main/assets/logo.png"
+      xlink:href="https://raw.githubusercontent.com/TharakaGamage830/TharakaGamage830/main/assets/logo.png"
+      clip-path="circle(17px at 17px 17px)" preserveAspectRatio="xMidYMid slice"/>
+  </g>
+
   <g transform="translate(830,55)">
     <g>
       <polygon points="0,-18 16,-9 0,0 -16,-9" fill="url(#cubeTop)" opacity="0.95"/>
       <polygon points="0,0 16,-9 16,9 0,18" fill="#3b82f6" opacity="0.85"/>
       <polygon points="0,0 -16,-9 -16,9 0,18" fill="#1d4ed8" opacity="0.9"/>
       <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="6s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <!-- cute walking robot, crosses the bottom edge on a loop -->
+  <g>
+    <animateMotion path="M -30,254 L 930,254" dur="14s" repeatCount="indefinite"/>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -3;0 0" dur="0.4s" repeatCount="indefinite"/>
+      <!-- back leg -->
+      <rect x="-8" y="10" width="6" height="14" rx="2" fill="#475569" transform-origin="-5 10">
+        <animateTransform attributeName="transform" type="rotate" values="20;-20;20" dur="0.4s" repeatCount="indefinite"/>
+      </rect>
+      <!-- front leg -->
+      <rect x="2" y="10" width="6" height="14" rx="2" fill="#64748b" transform-origin="5 10">
+        <animateTransform attributeName="transform" type="rotate" values="-20;20;-20" dur="0.4s" repeatCount="indefinite"/>
+      </rect>
+      <!-- body -->
+      <rect x="-11" y="-10" width="22" height="22" rx="7" fill="#334155" stroke="#60a5fa" stroke-width="1.5"/>
+      <!-- visor -->
+      <rect x="-7" y="-4" width="14" height="7" rx="3.5" fill="#0f172a"/>
+      <circle cx="0" cy="-0.5" r="2.5" fill="#60a5fa">
+        <animate attributeName="opacity" values="1;0.3;1" dur="1s" repeatCount="indefinite"/>
+      </circle>
+      <!-- antenna -->
+      <line x1="0" y1="-10" x2="0" y2="-16" stroke="#475569" stroke-width="2"/>
+      <circle cx="0" cy="-17" r="2.5" fill="#c084fc">
+        <animate attributeName="opacity" values="1;0.4;1" dur="0.8s" repeatCount="indefinite"/>
+      </circle>
+      <!-- swinging arm -->
+      <rect x="10" y="-8" width="5" height="10" rx="2" fill="#64748b" transform-origin="10 -8">
+        <animateTransform attributeName="transform" type="rotate" values="-25;25;-25" dur="0.4s" repeatCount="indefinite"/>
+      </rect>
     </g>
   </g>
 </svg>

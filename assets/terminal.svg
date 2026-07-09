@@ -1,0 +1,36 @@
+<svg width="600" height="200" viewBox="0 0 600 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="clip1"><rect x="0" y="0" height="20"><animate attributeName="width" values="0;430;430;430" keyTimes="0;0.2;0.9;1" dur="10s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="clip2"><rect x="0" y="0" height="20"><animate attributeName="width" values="0;0;300;300;300" keyTimes="0;0.2;0.4;0.9;1" dur="10s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="clip3"><rect x="0" y="0" height="20"><animate attributeName="width" values="0;0;0;480;480" keyTimes="0;0.2;0.4;0.65;1" dur="10s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="clip4"><rect x="0" y="0" height="20"><animate attributeName="width" values="0;0;0;0;260" keyTimes="0;0.2;0.4;0.65;0.85" dur="10s" repeatCount="indefinite"/></rect></clipPath>
+  </defs>
+
+  <rect width="600" height="200" rx="12" fill="#0f172a" stroke="#334155" stroke-width="1.5"/>
+
+  <rect width="600" height="34" rx="12" fill="#1e293b"/>
+  <rect y="22" width="600" height="12" fill="#1e293b"/>
+  <circle cx="24" cy="17" r="6" fill="#ef4444"/>
+  <circle cx="46" cy="17" r="6" fill="#eab308"/>
+  <circle cx="68" cy="17" r="6" fill="#22c55e"/>
+  <text x="300" y="22" text-anchor="middle" font-family="Fira Code, monospace" font-size="12" fill="#94a3b8">tharaka@dev: ~/portfolio</text>
+
+  <g font-family="Fira Code, monospace" font-size="15" fill="#e2e8f0">
+    <g clip-path="url(#clip1)">
+      <text x="20" y="65"><tspan fill="#60a5fa">$</tspan> git log --author="Tharaka" --oneline | head -1</text>
+    </g>
+    <g clip-path="url(#clip2)">
+      <text x="20" y="95"><tspan fill="#4ade80">a3f9c2e</tspan> feat: ship production feature for client</text>
+    </g>
+    <g clip-path="url(#clip3)">
+      <text x="20" y="125"><tspan fill="#60a5fa">$</tspan> whoami --stack</text>
+    </g>
+    <g clip-path="url(#clip4)">
+      <text x="20" y="155"><tspan fill="#c084fc">→</tspan> React · Next.js · NestJS · Spring Boot · TypeScript</text>
+    </g>
+  </g>
+
+  <rect x="20" y="163" width="9" height="16" fill="#60a5fa">
+    <animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/>
+  </rect>
+</svg>
