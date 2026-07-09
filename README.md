@@ -12,11 +12,11 @@
 
 </div>
 
-<br/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1e3a8a,100:0f172a&height=4&section=header"/>
 
 ## About
 
-Full-stack developer (B.Sc. Computer Science, University of Ruhuna) currently working as a **Software Engineer Intern**, shipping features on production client codebases alongside personal projects. Originally built on a Java / Spring Boot / React foundation, and over the past year expanded into the modern TypeScript ecosystem — **Next.js, NestJS, and Tailwind CSS** — to build typed, end-to-end applications across the full stack.
+Full-stack developer (B.Sc. Computer Science, University of Ruhuna) currently working as a **Software Engineer Intern**, shipping features on production client codebases alongside personal projects. Originally built on a Java / Spring Boot / React foundation, and over the past year expanded into the modern TypeScript ecosystem - **Next.js, NestJS, and Tailwind CSS** - to build typed, end-to-end applications across the full stack.
 
 <br/>
 
@@ -64,42 +64,31 @@ Full-stack developer (B.Sc. Computer Science, University of Ruhuna) currently wo
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
 
 </td>
 </tr>
 </table>
 
-<br/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1e3a8a,100:0f172a&height=4&section=header"/>
 
-## 💼 Production Contributions — Software Engineer Intern
+## 💼 Production Contributions - Software Engineer Intern
 
 <table>
 <tr><td width="50%">
 
-**[Mahinda Panagoda — Frontend](https://github.com/TharakaGamage830/Mahinda_Panagoda_Frontend)**
-Client-facing web frontend, built and maintained as part of the engineering team.
+**Mahinda Panagoda Funeral Service - [Frontend](https://github.com/TharakaGamage830/Mahinda_Panagoda_Frontend) | [Backend](https://github.com/TharakaGamage830/panagoda_backend_v0.2)**
+Client-facing web frontend and backend, built and maintained as part of the software engineering team.
 
-</td><td width="50%">
+</td>
+<td width="50%">
 
-**[Panagoda Backend v0.2](https://github.com/TharakaGamage830/panagoda_backend_v0.2)**
-Backend service powering the above — feature work and fixes as an intern.
-
-</td></tr>
-<tr><td width="50%">
-
-**[Ehelepola Walawwa — Frontend](https://github.com/TharakaGamage830/ehelepola_walawwa_frontend)**
-Frontend for a client web application.
-
-</td><td width="50%">
-
-**[Go Head Lanka](https://github.com/TharakaGamage830/Go_Head_Lanka)**
-Frontend/backend contributions on a client project.
+**[Ehelepola Walawwe](https://github.com/TharakaGamage830/ehelepola_walawwa_frontend)**
+Built for a client web application.
 
 </td></tr>
 </table>
 
-<br/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1e3a8a,100:0f172a&height=4&section=header"/>
 
 ## 🏆 Major Projects
 
@@ -108,7 +97,7 @@ Frontend/backend contributions on a client project.
 <td width="50%">
 
 ### 🩸 BloodConnect
-Full-stack MERN platform connecting blood donors and recipients — register as a donor, request blood, manage donation events in real time.
+Full-stack MERN platform connecting blood donors and recipients - register as a donor, request blood, manage donation events in real time.
 
 `MongoDB` `Express` `React` `Node.js` `JWT`
 
@@ -117,8 +106,8 @@ Full-stack MERN platform connecting blood donors and recipients — register as 
 </td>
 <td width="50%">
 
-### 🚗 MOSAD — Rashmi Tyre E-Business *(Contributed)*
-E-business web application for Rashmi Tyre Center — stock management, ordering, and business operations.
+### 🚗 MOSAD - Rashmi Tyre E-Business *(Contributed)*
+E-business web application for Rashmi Tyre Center - stock management, ordering, and business operations.
 
 `Java` `Spring Boot` `React` `Docker`
 
@@ -128,17 +117,17 @@ E-business web application for Rashmi Tyre Center — stock management, ordering
 </tr>
 </table>
 
-<br/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1e3a8a,100:0f172a&height=4&section=header"/>
 
 ## 🌐 Portfolio
 
-**[my-portfolio](https://github.com/TharakaGamage830/my-portfolio)** — personal portfolio site.
+**[my-portfolio](https://github.com/TharakaGamage830/my-portfolio)** - personal portfolio site.
 `Next.js` `React` `Tailwind CSS`
 [Live →](https://tharaka-gamage.netlify.app/)
 
 <br/>
 
-## 🔨 Own Projects — Upper-Mid Priority
+## 🔨 Sample Projects
 
 <table>
 <tr>
@@ -155,7 +144,7 @@ Task management + time tracking with a timer and analytics dashboard.
 <td width="33%">
 
 **🚌 BUS: Book-Ur-Seat**
-Bus reservation and management system — real-time seat booking, full admin panel for routes/schedules.
+Bus reservation and management system - real-time seat booking, full admin panel for routes/schedules.
 
 `React` `Vite` `Node.js` `Express` `MongoDB` `JWT`
 
@@ -177,14 +166,14 @@ Sales order management application.
 
 <br/>
 
-## 🎮 Minor Projects — Language & Skill Practice
+## 🎮 Projects for Language & Skill Practice
 
 <table>
 <tr>
 <td width="33%">
 
 **🏮 Mahasona: Shadow of the Village**
-Real-time social deduction game inspired by Sri Lankan folklore — 8 unique roles, live multiplayer.
+Real-time social deduction game inspired by Sri Lankan folklore - 8 unique roles, live multiplayer.
 
 `React` `TypeScript` `Tailwind` `Framer Motion` `Socket.io` `Supabase`
 
@@ -194,7 +183,7 @@ Real-time social deduction game inspired by Sri Lankan folklore — 8 unique rol
 <td width="33%">
 
 **📊 OmniDash**
-Multi-frontend admin dashboard system — admin panel, client frontend, and backend API.
+Multi-frontend admin dashboard system - admin panel, client frontend, and backend API.
 
 `TypeScript` `JavaScript`
 
@@ -220,35 +209,41 @@ ASP.NET Core app to record and categorize daily expenses with monthly chart repo
 <summary><b>🎓 University Projects (kept for history)</b></summary>
 <br/>
 
-- **[SafePath Observers](https://github.com/TharakaGamage830/safepath-observer)** — driving school management system. `PHP` `MySQL` `Bootstrap`
-- **[WildNet](https://github.com/TharakaGamage830/WildNet)** — interactive wildlife education app. `Java` `JavaFX` `MySQL`
+- **[SafePath Observers](https://github.com/TharakaGamage830/safepath-observer)** - driving school management system. `PHP` `MySQL` `Bootstrap`
+- **[WildNet](https://github.com/TharakaGamage830/WildNet)** - interactive wildlife education app. `Java` `JavaFX` `MySQL`
 
 </details>
 
-<br/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1e3a8a,100:0f172a&height=4&section=header"/>
 
 ## GitHub Stats
 
+*(Self-generated by a GitHub Action into this repo - no external dependency, no rate limits.)*
+
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=TharakaGamage830&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&border_radius=10" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TharakaGamage830&layout=compact&theme=tokyonight&hide_border=true&border_radius=10" height="165"/>
-
-<img src="https://streak-stats.demolab.com?user=TharakaGamage830&theme=tokyonight&hide_border=true&border_radius=10" height="150"/>
+<img src="https://raw.githubusercontent.com/TharakaGamage830/TharakaGamage830/main/profile-summary-card-output/tokyonight/0-profile-details.svg" width="49%"/>
+<img src="https://raw.githubusercontent.com/TharakaGamage830/TharakaGamage830/main/profile-summary-card-output/tokyonight/3-stats.svg" width="49%"/>
+<img src="https://raw.githubusercontent.com/TharakaGamage830/TharakaGamage830/main/profile-summary-card-output/tokyonight/1-repos-per-language.svg" width="49%"/>
+<img src="https://raw.githubusercontent.com/TharakaGamage830/TharakaGamage830/main/profile-summary-card-output/tokyonight/4-productive-time.svg" width="49%"/>
 
 </div>
 
 <br/>
 
-## Contribution Terrain
-
-*(Generated automatically by the workflow below — a 3D commit landscape instead of the snake everyone runs.)*
+## Contribution Activity
 
 <div align="center">
+
+<img src="https://raw.githubusercontent.com/TharakaGamage830/TharakaGamage830/output/github-contribution-grid-snake-dark.svg" width="100%" alt="snake contribution graph"/>
+
+<br/><br/>
+
 <img src="https://raw.githubusercontent.com/TharakaGamage830/TharakaGamage830/main/profile-3d-contrib/profile-night-rainbow.svg" width="90%" alt="3D contribution graph"/>
+
 </div>
 
-<br/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1e3a8a,100:0f172a&height=4&section=header"/>
 
 ## Achievements
 

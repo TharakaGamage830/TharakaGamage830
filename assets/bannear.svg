@@ -36,10 +36,6 @@
     <animateMotion path="M 0,0 L 950,240" dur="7s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="0;0.9;0" dur="7s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="950" cy="10" r="2.5" fill="#60a5fa" opacity="0">
-    <animateMotion path="M 0,0 L -900,230" dur="9s" begin="2s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0;0.8;0" dur="9s" begin="2s" repeatCount="indefinite"/>
-  </circle>
 
   <text x="60" y="115" font-family="Segoe UI, sans-serif" font-size="42" font-weight="700" fill="url(#textGrad)">
     Tharaka Gamage
@@ -53,10 +49,7 @@
     <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
   </rect>
 
-  <text x="62" y="190" font-family="Fira Code, monospace" font-size="14" fill="#64748b">
-    React · Next.js · NestJS · Spring Boot · Tailwind
-    <animate attributeName="fill" values="#64748b;#94a3b8;#64748b" dur="4s" repeatCount="indefinite"/>
-  </text>
+  <text x="62" y="190" font-family="Fira Code, monospace" font-size="14" fill="#64748b">React · Next.js · NestJS · Spring Boot · Tailwind</text>
 
   <path id="orbitOuter" d="M 780,140 a80,80 0 1,1 -0.1,0" fill="none"/>
   <path id="orbitInner" d="M 745,140 a45,45 0 1,0 -0.1,0" fill="none"/>
@@ -64,10 +57,6 @@
   <circle cx="700" cy="140" r="80" fill="none" stroke="#334155" stroke-width="1" stroke-dasharray="2 6"/>
   <circle cx="700" cy="140" r="45" fill="none" stroke="#334155" stroke-width="1" stroke-dasharray="2 6"/>
 
-  <circle cx="700" cy="140" r="28" fill="none" stroke="#60a5fa" stroke-width="2" opacity="0.6">
-    <animate attributeName="r" values="28;40;28" dur="2.5s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.6;0;0.6" dur="2.5s" repeatCount="indefinite"/>
-  </circle>
   <circle cx="700" cy="140" r="28" fill="#1e293b" stroke="url(#textGrad)" stroke-width="2"/>
   <text x="700" y="147" text-anchor="middle" font-size="18" font-weight="700" fill="#e2e8f0" font-family="Segoe UI">TG</text>
 
